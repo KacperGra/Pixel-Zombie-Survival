@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8679822573270849960
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2851585497264978201, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_Name
+      value: ZombieBloodSplash Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906553477455706206, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.067018926
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906553477455706206, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.46226418
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906553477455706206, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955957430577706452, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955957430577706452, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955957430577706452, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -626.2311
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955957430577706452, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955957430577706452, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955957430577706452, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955957430577706452, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955957430577706452, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955957430577706452, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955957430577706452, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955957430577706452, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955957430577706452, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955957430577706452, guid: 7be79a2f28e5bf7498c1824cec21a5c4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7be79a2f28e5bf7498c1824cec21a5c4, type: 3}
