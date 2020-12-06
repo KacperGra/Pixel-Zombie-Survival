@@ -15,3 +15,4 @@ MonoBehaviour:
   name: Rifle
   image: {fileID: 6407226241554960098, guid: d2fe2b8b9a4f0f046b01671521a6b73c, type: 3}
   cost: 350
+  itemIndex: 1

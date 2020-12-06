@@ -11,13 +11,11 @@ public class ItemDisplay : MonoBehaviour
     public Image itemImage;
     public Text costText;
     public Text buttonText;
+
     public Player player;
     private bool IsBought = false;
     private bool transactionDone = false;
 
-    public int indexID;
-
-    // Start is called before the first frame update
     void Start()
     {
         nameText.text = item.name;
@@ -30,7 +28,7 @@ public class ItemDisplay : MonoBehaviour
         if (player.goldNumber >= item.cost && IsBought == false)
         {
             player.goldNumber -= item.cost;
-            if (item.name != "Ammo x30")
+            if (item.index != ShopItem.AmmoBox)
             {
                 costText.text = "AVILABLE";
                 costText.fontSize = 9;
@@ -44,15 +42,15 @@ public class ItemDisplay : MonoBehaviour
         }
         if (transactionDone == true)
         {
-            switch (indexID)
+            switch (item.index)
             {
-                case 1:
+                case ShopItem.Rifle:
                     player.HaveRifle = true;
                     break;
-                case 2:
+                case ShopItem.Shotgun:
                     player.HaveShotgun = true;
                     break;
-                case 3:
+                case ShopItem.AmmoBox:
                     player.ammoNumber += 30;
                     break;
                 default:
